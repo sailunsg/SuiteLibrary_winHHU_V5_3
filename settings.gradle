@@ -1,0 +1,3 @@
+rootProject.name = "SuiteLibrary_winHHU"
+include ':app'
+include ':suitelibrary_hhu'
