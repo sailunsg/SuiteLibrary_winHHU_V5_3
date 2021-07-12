@@ -2,9 +2,11 @@ package com.suite;
 
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.chilkatsoft.SuiteSecurityGenerator;
+
 
 public class MainActivity extends AppCompatActivity {
 
