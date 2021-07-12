@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         String K = "30303030303030303030303030303030"; //16 bytes
         String IV = "45434C3132333435000000E3";
         String AAD = "3030303030303030303030303030303030";//17 bytes
-        String PT="C301C10046000060030AFF02010F00";
+        String PT="01000000065F1F040000181DFFFF";
         //SuiteSecurityFragment test =new SuiteSecurityFragment(K,IV,AAD,PT);
 
         String Tag = SuiteSecurityGenerator.SecurityTagGenerator(MainActivity.this,K,IV,AAD,PT);
